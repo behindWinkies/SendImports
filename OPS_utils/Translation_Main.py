@@ -18,7 +18,6 @@ while True:
 
     prompt = "Please enter the EDI Style Number or 'Q' or 'q' to quit: "
     try:
-        print(prompt)
         EDISN = input(prompt)
     except ValueError:
         print(prompt)
